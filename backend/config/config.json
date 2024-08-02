@@ -1,0 +1,28 @@
+{
+  "development": {
+    "dialect": "postgres",
+    "host": "localhost",
+    "username": "postgres",
+    "password": "kanna",
+    "database": "PPR",
+    "port": 5432,
+    "define": {
+      "timestamps": false
+    }
+  },
+
+  "test": {
+    "username": "postgres",
+    "password": "kanna",
+    "database": "PPR",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "kanna",
+    "database": "PPR",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}
